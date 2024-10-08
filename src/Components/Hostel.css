@@ -1,0 +1,31 @@
+.hostel-container {
+    padding: 20px 30px;
+  }
+  
+  .hostel-content h1 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #004f74;
+  }
+  
+  .hostel-content ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .hostel-content ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hostel-content ul li:before {
+    content: '➤';
+    color: #004f74;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+  

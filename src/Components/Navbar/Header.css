@@ -1,0 +1,64 @@
+/* Styling for the header */
+.header {
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1; /* This ensures the logo container takes up more space */
+  }
+  
+  .logo {
+    height: 60px;
+    margin-right: 15px;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #004f74;
+  }
+  
+  .subtitle {
+    font-size: 0.9rem;
+    color: #666;
+    margin-left: 5px;
+  }
+  
+  /* Styling for the nav content */
+  .nav {
+    flex-grow: 2; /* Allows the nav content to be closer to the logo */
+  }
+  
+  .nav ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav ul li a {
+    text-decoration: none;
+    color: #473636; /* Font color */
+    font-size: 1.2rem; /* Font size */
+    font-family: 'Raleway', sans-serif; /* Font name */
+    font-weight: 400; /* Font weight */
+    line-height: 22.8571px; /* Line height */
+    transition: color 0.3s ease;
+  }
+  
+  .nav ul li a:hover {
+    color: #004f74; /* Change hover color */
+  }
+  

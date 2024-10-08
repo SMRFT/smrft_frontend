@@ -1,0 +1,46 @@
+.vision-mission-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .vision-mission-buttons {
+    margin-bottom: 20px;
+  }
+  
+  .vision-mission-buttons button {
+    background-color: #004f74;
+    color: white;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .vision-mission-buttons button:hover {
+    background-color: #00344d;
+  }
+  
+  .vision-mission-content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vision-mission-content h1 {
+    color: #004f74;
+    margin-bottom: 10px;
+  }
+  
+  .vision-mission-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .vision-mission-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+  }
+  

@@ -1,0 +1,26 @@
+.principals-message-container {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .principals-message-content h1 {
+    font-size: 32px;
+    color: #2a5298;
+    margin-bottom: 20px;
+  }
+  
+  .principals-message-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .principals-message-content p:last-of-type {
+    font-weight: bold;
+  }
+  

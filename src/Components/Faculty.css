@@ -1,0 +1,32 @@
+.faculty-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .faculty-content h1 {
+    color: #004f74;
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+  
+  .faculty-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .faculty-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .faculty-content ul li {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .faculty-content h1 {
+    margin-top: 20px;
+  }
+  
